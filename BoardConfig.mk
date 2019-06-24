@@ -214,6 +214,10 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# Soong
+PRODUCT_SOONG_NAMESPACES += \
+    $(COMMON_PATH)/libhidl
+
 # Thermal
 USE_DEVICE_SPECIFIC_THERMAL := true
 
