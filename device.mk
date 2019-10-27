@@ -325,20 +325,16 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.qcom.fm.sh \
+    init.mmi.boot.sh \
+    init.qcom.sensors.sh \
     wlan_carrier_bin.sh
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.mmi.boot.sh \
     init.mmi.rc \
     init.mmi.usb.rc \
     init.qcom.rc \
-    init.qcom.sensors.sh \
     init.sanders.rc
-
-PRODUCT_COPY_FILES += \
-     $(LOCAL_PATH)/rootdir/etc/ueventd.qcom.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
 
 # RCS
 PRODUCT_PACKAGES += \
