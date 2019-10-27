@@ -207,7 +207,8 @@ PRODUCT_COPY_FILES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    ims-ext-common
+    ims-ext-common \
+    telephony-ext
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
