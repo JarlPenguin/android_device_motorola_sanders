@@ -374,9 +374,6 @@
     <!-- Boolean indicating if current platform supports BLE peripheral mode -->
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
 
-    <!-- Whether device supports double tap to wake -->
-    <bool name="config_supportDoubleTapWake">false</bool>
-
     <!-- Paths to the libraries that contain device specific key handlers -->
     <string name="config_deviceKeyHandlerLib" translatable="false">/vendor/app/MotoActions/MotoActions.apk</string>
 
