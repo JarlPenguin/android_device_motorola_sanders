@@ -231,9 +231,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Vendor security patch
 VENDOR_SECURITY_PATCH := 2019-06-01
 
-# Use mke2fs to create ext4 images
-TARGET_USES_MKE2FS := true
-
 # Wifi
 BOARD_HAS_QCOM_WLAN              := true
 BOARD_WLAN_DEVICE                := qcwcn
